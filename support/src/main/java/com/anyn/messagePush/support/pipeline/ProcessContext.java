@@ -1,6 +1,6 @@
 package com.anyn.messagePush.support.pipeline;
 
-import com.anyn.messagePush.common.vo.BasicResultVo;
+import com.anyn.messagePush.common.vo.BasicResultVO;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -34,5 +34,5 @@ public class ProcessContext<T extends ProcessModel> {
     /**
      * 流程处理的结果
      */
-    public BasicResultVo response;
+    public BasicResultVO response;
 }

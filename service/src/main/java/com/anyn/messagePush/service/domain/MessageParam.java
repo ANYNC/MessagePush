@@ -1,7 +1,22 @@
 package com.anyn.messagePush.service.domain;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.experimental.Accessors;
+
 import java.util.Map;
 
+/**
+ * @Description: 消息参数
+ * @Author: Anyn
+ **/
+@Data
+@Accessors(chain = true)
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 public class MessageParam {
     /**
      * 接受者

@@ -12,6 +12,14 @@
     <groupId>com.anyn.messagePush.service</groupId>
     <artifactId>service</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.anyn.messagePush.common</groupId>
+            <artifactId>common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
         <maven.compiler.target>18</maven.compiler.target>
